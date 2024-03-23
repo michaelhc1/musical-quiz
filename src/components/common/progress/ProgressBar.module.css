@@ -1,0 +1,26 @@
+@import "../../../App/config.module.css";
+
+.bar {
+  width: 27vw;
+  display: flex;
+  max-width: 500px;
+}
+
+.progressText {
+  text-align: center;
+  position: relative;
+  bottom: 2.7vh;
+  /* color: red; */
+}
+
+.bar__progress {
+  background-color: var(--backgroundColor);
+  height: 3vh;
+  width: var(--width);
+}
+
+.bar__remainder {
+  background-color: var(--lightGrey);
+  height: 3vh;
+  flex-grow: 1;
+}

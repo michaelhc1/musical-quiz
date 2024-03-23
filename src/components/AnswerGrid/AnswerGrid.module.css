@@ -1,0 +1,6 @@
+.answerGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2vh;
+  margin: 1vh 0 4vh;
+}
